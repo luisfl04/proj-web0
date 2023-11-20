@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.corpo{
+    font-family: monospace;
+    color: #33331a;   
+    background-color: #f2eab8; 
+}
+
+.titulo{
+    text-align:center;
+    font-size: 2.5rem;
+    padding: 170px 0;
+    
+}
+    
+.noticia{
+    display:flex;
+    justify-content:space-around;
+}
+
+.img-taca{
+    width:650px;
+    margin-left: 60px;
+    outline: solid black 4px;
+}
+
+.texto-principal{
+font-weight: 600;
+font-size: 1.75rem;
+text-align:justify;
+margin:15px 30px;
+}
+
+.tabela-campeoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.titulo-tabela{
+    text-align:center;
+    margin-top:150px;
+    font-size: 2.8rem;
+    font-weight:bold;
+}
+
+#primeira-coluna{
+    border:none;
+}
+
+th,td{
+    border: 3px solid black;
+    padding:10px 20px;
+    font-size: 1.8rem;
+    border-radius:6px;
+    text-align: center;
+}
+
+.titulo-campeoes{
+    text-align:center;
+    margin-top:150px;
+    font-size:2rem;
+    font-weight:bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

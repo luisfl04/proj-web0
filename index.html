@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proj01</title>
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/corpo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -15,94 +15,124 @@
 <body>
 
     <header>
-        <nav class="cabecalho">
+        <nav>
+            <div class="cabecalho">
             <img src="img/logo.png" class="logo">
-            <ul>
-                <li class="cabecalho-item"><a href="#">História</a></li>
-                <li class="cabecalho-item"><a href="#">artilheiros</a></li>
-                <li class="cabecalho-item"><a href="#">todos os campeões</a></li>
-            </ul>
-
+            <div class="cabecalho-item"><a href="#">História</a></div>
+            <div class="cabecalho-item"><a href="#">Campeões</a></div>
+            <div class="cabecalho-item"><a href="#">Artilheiros</a></div>
+        </div>
         </nav>
 
     </header>
 
-    <main class="body">
-
+    <main class="corpo">
         <section>
-            <h1 class="titulo">Conheça o brasileirão, o campeonato mais disputado do mundo!</h1>
-
-            <figure><img src="img/img1.webp" alt=" Taça do Brasileirão" class="img-taca"></figure>
-
-
-            <p class="texto">O campeonato brasileiro sempre foi importante para o cenário do futebol mundial,
-                principalmente por
-                ter a traidição de revelar grandes craques, como: Ronaldo, Ronaldinho Gaúcho, Neymar e tantos outros
-                craques. Ele
-                começou a ser disputado em 1922 em um torneio conhecido como <q>Campeonato brasileiro entre seleções
-                    estaduais</q>.
-                Em 1937 surgiu a primeira disputa do campeonato brasileiro tendo um federação organizando, a <q>CBF</q>
-                (Confederação
-                Brasileira de Futebol). Assim, com o passar do tempo os clubes foram se organizando mais em termos de
-                estrutura e financeiramente
-                também, fazendo com que o campeonato crescesse ainda mais. Outro fator que contribuiu muito foi a
-                ascenção do futebol brasileiro
-                em nível mundial, com o suscesso nas copas do mundo entre as décadas de 50 á 70, período que surgiram
-                muitos craques inesquesíveis,
-                um exemplo é <a title="Conheça mais sobre Pelé" href="https://pt.wikipedia.org/wiki/Pel%C3%A9"
-                    target="_blank">Pelé</a> considerado por muitos o maior jogador de todos os tempos.
-            </p>
+            <h1 class="titulo">
+                Conheça o Brasileirão, o campeonato mais disputado do mundo! 
+            </h1>
+           
+            <div class="noticia">
+            <figure>
+                <img class="img-taca" src="img/img1.webp" alt="imagem da taça do Brasileirão" title="Imagem da taça">
+            </figure>
+            
+               <p class="texto-principal">
+                O Campeonato Brasileiro de Futebol, também conhecido como Campeonato Brasileiro, Brasileirão e Série A,
+                 é a liga brasileira de futebol profissional entre clubes do Brasil,
+                  sendo a principal competição futebolística no país. É por meio dela que
+                   são indicados os representantes brasileiros para a Copa
+                    Libertadores da América (juntamente com o campeão da Copa do Brasil).
+                     O campeão do torneio também conquista uma vaga na Supercopa do Brasil
+                      no ano seguinte. Ao contrário do que ocorrera em outros 
+                      países da América do Sul, houve muitos desafios para que
+                       o futebol no Brasil tivesse um sistema de disputa em 
+                      nível federal.
+                    </p>
+                    
+                </div>
         </section>
 
         <section>
-            <caption>Campeôes das Ultias cinco edições</caption>
-            <table>
+            
+                <p class="titulo-tabela">Mais informações das ultimas 5 edições 👇</p>
 
+            <table class="tabela-campeoes">
+               
+                    <tr>
+                        <th id="primeira-coluna">
+
+                        </th>
+                        <th>
+                            2019
+                        </th>
+                        <th>
+                            2020 
+                        </th>
+                        <th>
+                            2021
+                        </th>
+                        <th>
+                            2022
+                        </th>
+                    </tr>
+                
                 <tr>
-                    <th>2023</th>
-                    <td>botafogo</td>
+                    <th>
+                        Campeão        
+                    </th>     
+                    <td>
+                        Flamengo
+                    </td>
+                    <td>
+                        Flamengo
+                    </td>
+                    <td>
+                        Atlético-MG
+                    </td>
+                    <td>
+                        Palmeiras
+                    </td>
                 </tr>
-
+            
                 <tr>
-                    <th>2022</th>
-                    <td>Palmeiras</td>
-                </tr>
+                    <th>Artilheiros</th>
+                    
+                    <td>Gabigol</td>
 
+                    <td>Claudinho</td>
+
+                    <td>Hulk</td>
+
+                    <td>Rony</td>
+                </tr>
+            
                 <tr>
-                    <th>2021</th>
-                    <td>Atlético-MG</td>
-                </tr>
+                    <th>Lanterna</th>
 
-                <tr>
-                    <th>2020</th>
-                    <td>Flamengo</td>
+                        <td>fulano</td>
+                        <td>fulano</td>
+                        <td>fulano</td>
+                        <td>fulano</td>
                 </tr>
-
-                <tr>
-                    <th>2019</th>
-                    <td>Flamengo</td>
-                </tr>
-
             </table>
         </section>
 
-
-
+        <section>
+            
+            <p class=" titulo-campeoes">Clique para conhecer mais os últimos campeões</p>
+            <div class="contanier">
+                <div class="item" id="flamengo">Flamengo</div>
+                <div class="item" id="atletico">Atlético-MG</div>
+                <div class="item" id="palmeiras">Palmeiras</div>
+            </div>
+        </section>
+        
+    
     </main>
 
-
-
-
-
-
-
-
-
-    <footer class="rodape">
-
-
+    <footer>
     </footer>
-
 
 </body>
 
