@@ -20,6 +20,8 @@
 .noticia{
     display:flex;
     justify-content:space-around;
+    border-bottom: 2px solid black;
+    padding-bottom:150px;
 }
 
 .img-taca{
@@ -33,26 +35,27 @@ font-weight: 600;
 font-size: 1.75rem;
 text-align:justify;
 margin:15px 30px;
-}
 
-.tabela-campeoes{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
 }
 
 .titulo-tabela{
-    text-align:center;
-    margin-top:150px;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight:bold;
+    margin-top: 190px;
+    text-align: center;
+}
+
+.tabela-infos {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 #primeira-coluna{
     border:none;
 }
 
-th,td{
+td,th{
     border: 3px solid black;
     padding:10px 20px;
     font-size: 1.8rem;
@@ -60,13 +63,107 @@ th,td{
     text-align: center;
 }
 
-.titulo-campeoes{
-    text-align:center;
-    margin-top:150px;
-    font-size:2rem;
-    font-weight:bold;
-    
+th{
+    background-color:black;
+    color:white;
 }
+
+
+.titulo-formulario{
+    margin:200px 800px;
+}
+
+
+.contanier{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    gap: 40px;
+    border: 2px solid white;
+    margin: 0 650px;
+    padding: 90px 0;
+    background-color:black;
+    border-radius: 15px;
+    opacity:0;
+    z-index: 5;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:white;
+}
+
+#nome,
+#email,
+#mensagem{
+    margin-left: 15px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: 10px 30px;
+    margin:20px 0;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+#forms{
+    font-size: 30px;
+    color:white;
+    padding: 30px;
+}
+
+#formulario{
+    padding-bottom: 200px;
+}
+
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    background-color:black;
+}
+.texto-footer{
+    color: white;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
